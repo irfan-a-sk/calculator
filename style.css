@@ -3,10 +3,13 @@
   padding: 0%;
   background-color: #000000;
 }
+/* main div */
 .main {
   text-align: center;
   margin: 40px auto;
 }
+
+/* head line */
 .main h1 {
   font-size: 60px;
   color: #00ffff;
@@ -15,6 +18,7 @@
   opacity: 0;
   animation: line-down 4s ease-out;
 }
+/* Calculator div */
 .calculator {
   text-align: center;
   background-color: #00ffff;
@@ -26,6 +30,7 @@
   box-shadow: 2px 5px 5px 5px #ccc;
 }
 
+/* Output/result  */
 #result {
   width: 100%;
   padding: 10px 0;
@@ -36,11 +41,14 @@
   color: #00ffff;
   border-radius: 20px;
 }
+
+/* Operator buttons background change to cyan */
 .operator-btn {
   background-color: #00ffff;
   animation: btn-pop 2s linear;
 }
 
+/* Arithmetic Operator Buttons */
 .operator-btn button {
   width: 50px;
   height: 50px;
@@ -49,17 +57,21 @@
   cursor: pointer;
   color: #00ffff;
 }
+
+/* On hover, add a green background color with text color balck */
 .operator-btn button:hover {
   background-color: #008000;
   color: #000000;
 }
+
+/* clear and equal buttons background magenta & text-color balck */
 .clear,
 .equal {
   background-color: #ff00ff;
   color: #000000 !important;
 }
 
-/* Animation  */
+/* Animation for head-line  */
 @keyframes line-down {
   from {
     margin-top: -800px;
@@ -69,24 +81,19 @@
   }
 }
 
-/* Media-query */
+/* Media-query  On smaller screens */
 
 @media screen and (min-width: 320px) and (max-width:600px) {
     .main {
         text-align: center;
-        margin: 50px auto;
-      }
-      .line-2 {
-        background-color: transparent;
-        animation: right-line 3s ease-out !important;
+        margin: 40px auto;
       }
       .main h1 {
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 30px;
       }
       .calculator {
         margin-top: -20px;
         width: 280px;
-        padding: 10px;
+        padding: 5px;
       }
 }
