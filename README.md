@@ -13,6 +13,8 @@ Keyboard Support: Allows users to input numbers and operators using the keyboard
 
 How to Use:
 
+Browser link: https://irfan-a-sk.github.io/calculator/
+
 Clone the Repository:
 
 Bash
