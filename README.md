@@ -1,4 +1,5 @@
 Project: Basic Calculator
+Browser link: https://irfan-a-sk.github.io/calculator/
 
 Description:
 This is a basic calculator web application built using HTML, CSS, and JavaScript. It provides a user-friendly interface to perform simple arithmetic operations.
@@ -12,8 +13,6 @@ Responsive Design: Adapts to different screen sizes.
 Keyboard Support: Allows users to input numbers and operators using the keyboard.
 
 How to Use:
-
-Browser link: https://irfan-a-sk.github.io/calculator/
 
 Clone the Repository:
 
